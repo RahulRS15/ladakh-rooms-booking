@@ -10,14 +10,14 @@ const SuccessForm=()=>{
     return (
         <div className='success-container'>
             <div className='upper-container'>
-                <div className='left-container'>
+                <div className='left-success-container'>
                     <h3>{bookingData.name}</h3>
                     <p>+91- {bookingData.phoneNumber}<br/>
                         {bookingData.email}<br/>
                         {bookingData.adultNumber} Adults and {bookingData.childrenNumber} Children
                     </p>
                 </div>
-                <div className='right-container'>
+                <div className='right-success-container'>
                     <img src={success} alt='success' className='success-img'/>
                     <div className='completion-container'>
                         <h1>Order Complete</h1>
