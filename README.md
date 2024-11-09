@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Brisphere Booking Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a booking web application for **Brisphere**, a fictional digital tourism ecosystem based in Ladakh, India. It enables users to book rooms, explore available services, and learn more about the location.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+The Brisphere Booking Application is designed to create an interactive and informative experience for users looking to book accommodations in Ladakh. The app offers:
+- A user-friendly booking form with options for specifying check-in/check-out dates and guest details.
+- A responsive navbar with links to essential sections such as Services, Discover, and About Us.
+- A dynamic home page, footer, and a dedicated services section displaying the amenities available at Brisphere.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. [Features](#features)
+2. [Tech Stack](#tech-stack)
+3. [Setup and Cloning](#setup-and-cloning)
+4. [Components](#components)
+5. [Usage](#usage)
+6. [File Structure](#file-structure)
+7. [Contributing](#contributing)
+8. [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Room Booking Form**: Allows users to book rooms with personalized options.
+- **Responsive Navigation**: Navbar linking to Discover, Services, and About Us.
+- **Interactive Home Page**: Displays a brief intro and a button to the booking form.
+- **Footer with Contact Information**: Shows Brisphere’s contact details and a location link.
+- **Dynamic Services Section**: Lists available services with icons and descriptions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **Frontend**: React, CSS
+- **Routing**: React Router
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup and Cloning
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ensure you have the following installed on your machine:
+- **Node.js** (v12 or higher)
+- **npm** (v6 or higher)
 
-### `npm run eject`
+### Cloning the Repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/upenderdeshaboina/ladakh-rooms-booking.git  
+   cd ladakh-rooms-booking
+    ```
+2. Install dependencies:
+```bash
+    npm install
+```
+3. Start the application:
+```bash
+    npm start
+```
+The application should now be running at http://localhost:3000 in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
+1. Book a Room:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Navigate to the Home page and click "BOOK" to access the booking form.
+- Fill in details, including check-in and check-out dates, and specify the number of rooms and guests.
+- Submit the form to confirm booking.
+2. Explore Services:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Use the Services section to view amenities provided at Brisphere.
+3. Navigate Through Pages:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Use the Navbar for easy access to different sections like Discover, Services, and About Us.
